@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfdf3840-1ddf-47a1-9794-8a24d817181a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo1.html" afterPath="$PROJECT_DIR$/demo1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bfdf3840-1ddf-47a1-9794-8a24d817181a" name="Default" comment="" />
     <ignored path="reactStudy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.4" vertical-offset="2127" max-vertical-offset="2688">
-              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.9251337" vertical-offset="1938" max-vertical-offset="2688">
+              <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47593582" vertical-offset="762" max-vertical-offset="1575">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state vertical-scroll-proportion="-4.9" vertical-offset="945" max-vertical-offset="1575">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -520,18 +514,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1.html">
+    <entry file="file://$PROJECT_DIR$/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.4" vertical-offset="2127" max-vertical-offset="2688">
-          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+        <state vertical-scroll-proportion="-4.9" vertical-offset="945" max-vertical-offset="1575">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2.html">
+    <entry file="file://$PROJECT_DIR$/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47593582" vertical-offset="762" max-vertical-offset="1575">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.9251337" vertical-offset="1938" max-vertical-offset="2688">
+          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
           <folding />
         </state>
       </provider>
