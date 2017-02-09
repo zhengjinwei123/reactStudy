@@ -1,0 +1,28 @@
+{
+  "name": "react study",
+  "version": "1.0.0",
+  "description": "react study",
+  "main": "app.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "grunt mocha",
+    "script-name": "babel-node demo1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mnode",
+    "multinode"
+  ],
+  "author": [
+    {
+      "name": "郑金玮",
+      "email": "2538698032@qq.com"
+    }
+  ],
+  "contributors": [],
+  "license": "MIT"
+}

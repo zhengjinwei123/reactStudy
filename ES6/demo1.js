@@ -1,12 +1,17 @@
 "use strict";
+//定义类
+class Point {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
 
-{
-    let a=1;
-    var b=2;
+    toString() {
+        return '(' + this.x + ', ' + this.y + ')';
+    }
 }
 
-console.log(b);
-
-
+let a = new Point(1,2);
+console.log(a.toString())
 
 
