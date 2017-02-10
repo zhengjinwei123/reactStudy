@@ -36,4 +36,7 @@ var d = 1;
 console.log(global.d)
 
 
+setInterval(()=>{console.log(111)},1000);
+
+
 
