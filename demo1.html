@@ -312,6 +312,61 @@ ReactDOM.render(
   <Mailbox unreadMessages={messages} />,
   document.getElementById('root9')
 );
+
+//*********************************
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((number) => number * 2);
+console.log(doubled);
+
+//************************
+const numbers1 = [1, 2, 3, 4, 5];
+const listItems = numbers1.map((number) =>
+  <li>{number}</li>
+);
+ReactDOM.render(
+  <ul>{listItems}</ul>,
+  document.getElementById('root10')
+);
+//*********************************
+function NumberList(props) {
+  const numbers = props.numbers;
+  const listItems = numbers.map((number) =>
+    <li>{number}</li>
+  );
+  return (
+    <ul>{listItems}</ul>
+  );
+}
+
+const numbers2 = [1, 2, 3, 4, 5];
+ReactDOM.render(
+  <NumberList numbers={numbers2} />,
+  document.getElementById('root11')
+);
+//***********************************
+function NumberList2(props) {
+  const numbers = props.numbers;
+  const listItems = numbers.map((number) =>
+    <li key={number.toString()}>
+      hh:{number}
+    </li>
+  );
+  return (
+    <ul>{listItems}</ul>
+  );
+}
+
+const numbers3 = [1, 2, 3, 4, 5];
+ReactDOM.render(
+  <NumberList2 numbers={numbers3} />,
+  document.getElementById('root12')
+);
 </script>
+<hr/>
+<div id="root10"></div>
+<hr/>
+<div id="root11"></div>
+<hr/>
+<div id="root12"></div>
 </body>
 </html>
