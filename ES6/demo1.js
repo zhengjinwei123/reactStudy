@@ -15,13 +15,7 @@ let a = new Point(1,2);
 console.log(a.toString());
 
 
-if(true){
-    function f(){
-        console.log(1111111);
-    }
 
-    f();
-}
 
 const PI=3.14;
 //const PI2;
