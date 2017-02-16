@@ -51,5 +51,5 @@ class SignUpDialog extends React.Component {
 ReactDOM.render(
     <SignUpDialog />,
     document.getElementById("root1")
-)
+);
 
