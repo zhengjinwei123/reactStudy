@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdf3840-1ddf-47a1-9794-8a24d817181a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialog/app2.js" afterPath="$PROJECT_DIR$/dialog/app2.js" />
     </list>
     <ignored path="reactStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,8 +121,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1640625" vertical-offset="0" max-vertical-offset="896">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.1171875" vertical-offset="0" max-vertical-offset="896">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -727,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1640625" vertical-offset="0" max-vertical-offset="896">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.1171875" vertical-offset="0" max-vertical-offset="896">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
