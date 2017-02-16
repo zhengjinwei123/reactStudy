@@ -373,7 +373,7 @@ class NameForm extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({value: event.target.value});
+    this.setState({value: event.target.value.toUpperCase()});
   }
 
   handleSubmit(event) {
@@ -397,6 +397,100 @@ ReactDOM.render(
   <NameForm />,
   document.getElementById('root13')
 );
+
+//***************************
+function BoilingVerdict(props){
+    if(props.celsius >= 100){
+        return <p>the water would boil</p>
+    }
+    return <p>the water would not boil</p>
+}
+
+class Calculator extends React.Component{
+    constructor(props){
+        super(props);
+        this.handleChange = this.handleChange.bind(this);
+        this.state = {value:''};
+    }
+
+    handleChange(e){
+        this.setState({value:e.target.value});
+    }
+    render(){
+        const value = this.state.value;
+        return(
+            <fieldset>
+                <legend>enter temperature in celsius:</legend>
+                <input
+                 value={value}
+                 onChange={this.handleChange} />
+                <BoilingVerdict celsius={parseFloat(value)}/>
+            </fieldset>
+        );
+    }
+}
+ReactDOM.render(
+  <Calculator />,
+  document.getElementById('root14')
+);
+//*********************************
+const scaleNames = {
+    c:'Celsius',
+    f:'Fahrenheit'
+}
+class TemperatureInput extends React.Component{
+    constructor(props){
+        super(props);
+        this.handleChange = this.handleChange.bind(this);
+        this.state = {value:''};
+    }
+
+    handleChange(e){
+        this.setState({value:e.target.value});
+    }
+
+    render(){
+        const value = this.state.value;
+        const scale = this.props.scale;
+
+        return (
+            <fieldset>
+                <legend>
+                    enter temperature in {scaleNames[scale]}:
+                </legend>
+                <input value={value} onChange={this.handleChange}/>
+                <BoilingVerdict
+                    celsius={parseFloat(value)} />
+            </fieldset>
+        )
+    }
+}
+class Calculator2 extends React.Component{
+    render(){
+        return(
+           <div>
+                <TemperatureInput scale="c" />
+                <TemperatureInput scale="f" />
+           </div>
+        )
+    }
+}
+
+ReactDOM.render(
+    <Calculator2 />,
+    document.getElementById('root15')
+);
+
+//************************************
+function toCelsius(fahrenheit){
+    return (fahrenheit-32)*5 / 9;
+}
+
+function toFahrenheit(celsius){
+    return (celsius*9/5)+32;
+}
+
+
 </script>
 <hr/>
 <div id="root10"></div>
@@ -406,5 +500,9 @@ ReactDOM.render(
 <div id="root12"></div>
 <hr/>
 <div id="root13"></div>
+<hr/>
+<div id="root14"></div>
+<hr/>
+<div id="root15"></div>
 </body>
 </html>
