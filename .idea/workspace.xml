@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfdf3840-1ddf-47a1-9794-8a24d817181a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/details/demo1/app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/details/demo1/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/details/demo1/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/demo1/app.html" afterPath="$PROJECT_DIR$/details/demo1/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/demo1/app.js" afterPath="$PROJECT_DIR$/details/demo1/app.js" />
     </list>
     <ignored path="reactStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/details/demo1/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.7" vertical-offset="0" max-vertical-offset="588">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="805">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details/demo1/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42068964" vertical-offset="894" max-vertical-offset="1827">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1811" max-vertical-offset="2646">
+              <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -153,8 +151,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/details/demo1.js" />
         <option value="$PROJECT_DIR$/details/demo1/style.css" />
-        <option value="$PROJECT_DIR$/details/demo1/app.html" />
         <option value="$PROJECT_DIR$/details/demo1/app.js" />
+        <option value="$PROJECT_DIR$/details/demo1/app.html" />
       </list>
     </option>
   </component>
@@ -162,10 +160,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="717" />
-    <option name="y" value="43" />
+    <option name="x" value="1078" />
+    <option name="y" value="50" />
     <option name="width" value="1932" />
-    <option name="height" value="1030" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -337,7 +335,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="717" y="43" width="1932" height="1030" extended-state="0" />
+    <frame x="1078" y="50" width="1932" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -772,18 +770,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/demo1/app.html">
+    <entry file="file://$PROJECT_DIR$/details/demo1/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.7" vertical-offset="0" max-vertical-offset="588">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1811" max-vertical-offset="2646">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/demo1/app.js">
+    <entry file="file://$PROJECT_DIR$/details/demo1/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42068964" vertical-offset="894" max-vertical-offset="1827">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="805">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding />
         </state>
       </provider>
