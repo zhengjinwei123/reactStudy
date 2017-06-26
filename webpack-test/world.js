@@ -1,0 +1,6 @@
+function world(){
+	return{
+
+		
+	};
+}
