@@ -530,7 +530,8 @@ var App = function App() {
     var layer = new _layer2.default();
     dom.innerHTML = layer.tpl({
         name: 'zjw',
-        arr: ["apple", "xiaomi", "oppo"]
+        arr: ["apple", "xiaomi", "oppo"],
+        m1: layer.m1
     });
 };
 
@@ -709,12 +710,17 @@ var _layer = __webpack_require__(13);
 
 var _layer2 = _interopRequireDefault(_layer);
 
+var _m = __webpack_require__(14);
+
+var _m2 = _interopRequireDefault(_m);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function layer() {
     return {
         name: "layer",
-        tpl: _layer2.default
+        tpl: _layer2.default,
+        m1: _m2.default
     };
 }
 
@@ -760,7 +766,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".flex {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n}\n.layer {\n  width: 600px;\n  height: 200px;\n  background-color: green;\n}\n.layer > div {\n  width: 400px;\n  height: 100px;\n  background: url(" + __webpack_require__(2) + ") repeat;\n}\n", ""]);
+exports.push([module.i, ".flex {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n}\n.layer {\n  width: 600px;\n  height: 200px;\n  background-color: green;\n}\n.layer > div:first-of-type {\n  width: 400px;\n  height: 100px;\n  background: url(" + __webpack_require__(2) + ") repeat;\n}\n.md {\n  margin: 10px auto;\n  width: 800px;\n  height: 400px;\n  background-color: #272822;\n  color: red;\n  border-radius: 0.5rem;\n  -webkit-box-shadow: 1px 1px;\n          box-shadow: 1px 1px;\n}\n", ""]);
 
 // exports
 
@@ -829,11 +835,19 @@ __p += '\r\n        ' +
 ((__t = ( arr[i])) == null ? '' : __t) +
 '\r\n    ';
 };
-__p += '\r\n</div>';
+__p += '\r\n\r\n\r\n</div>\r\n\r\n <div class="md">\r\n        ' +
+((__t = ( m1)) == null ? '' : __t) +
+'\r\n    </div>';
 
 }
 return __p
 }
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = "<blockquote>\n<p>this is markdown file</p>\n</blockquote>\n<h3 id=\"11111\">11111</h3>\n<p><img src=\"https://github.com/zhengjinwei123/reactStudy/blob/master/webpack-test/demo2/src/assets/pic1.png?raw=true\" alt=\"girl\"></p>\n";
 
 /***/ })
 /******/ ]);

@@ -4,4 +4,10 @@
     <% for(var i=0;i<arr.length;i++){%>
         <%= arr[i]%>
     <%}%>
+
+
 </div>
+
+ <div class="md">
+        <%= m1%>
+    </div>

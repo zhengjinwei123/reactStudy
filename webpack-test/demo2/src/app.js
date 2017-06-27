@@ -6,7 +6,8 @@ const App = function () {
     let layer = new Layer();
     dom.innerHTML = layer.tpl({
         name:'zjw',
-        arr:["apple","xiaomi","oppo"]
+        arr:["apple","xiaomi","oppo"],
+        m1: layer.m1
     });
 };
 

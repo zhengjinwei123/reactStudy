@@ -1,6 +1,8 @@
 const Path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebPack = require("webpack");
+const marked = require("marked");
+const renderer = new marked.Renderer();
 
 module.exports = {
     entry: {
@@ -82,6 +84,19 @@ module.exports = {
                         }
                     },
                     "image-webpack-loader"
+                ],
+            },
+            {
+                test:/\.md$/,
+                loaders:[
+                    "html-loader",
+                    {
+                        loader:'markdown-loader',
+                        options: {
+                            pedantic: true,
+                            renderer
+                        }
+                    }
                 ],
 
             }
