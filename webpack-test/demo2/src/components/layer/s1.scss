@@ -1,0 +1,12 @@
+.s1{
+  tansition:all 2s;
+
+  div{
+    display: flex;
+  }
+
+  @at-root
+  .s11{
+    color:pink;
+  }
+}

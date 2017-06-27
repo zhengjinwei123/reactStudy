@@ -1,9 +1,11 @@
-// import tpl from './layer.html';
+import  './layer.less';
+import  './s1.scss';
+import tpl from './layer.tpl';
 
-function layer(){
+function layer() {
     return {
-        name:"layer",
-        tpl:tpl
+        name: "layer",
+        tpl: tpl
     }
 }
 
