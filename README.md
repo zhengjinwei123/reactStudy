@@ -7,6 +7,8 @@
 
 ## webpack
 
+> `webpack`+`react`+`redux`+`router` 是常见`react开发`组合,`webpack` 作为项目打包工具,功能和生态良好
+
 ##### 参考资料
 1.[中文学习网站](http://www.css88.com/doc/webpack2/concepts/)
 2.[官网](http://webpack.github.io/)
