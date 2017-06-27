@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script type="text/javascript">
+        <%= compilation.assets[htmlWebpackPlugin.files.chunks.main.entry.substr(htmlWebpackPlugin.files.publicPath.length)].source() %>
+    </script>
+</head>
+<body>
+    <!--<% for(var key in htmlWebpackPlugin){ %>-->
+        <!--<%= key %>-->
+        <!--<% for( var i in htmlWebpackPlugin[key]){ %>-->
+                <!--<%= i%>=<%= JSON.stringify(htmlWebpackPlugin[key][i]) %>-->
+        <!--<%}%>-->
+    <!--<%}%>-->
+
+    <% for(var k in htmlWebpackPlugin.files.chunks){ %>
+        <% if(k != 'main'){ %>
+            <script type="text/javascript" src="<%= htmlWebpackPlugin.files.chunks[k].entry%>"></script>
+        <%}%>
+    <%}%>
+</body>
+<!--end-->
+</html>

@@ -9,4 +9,5 @@
 
 ##### 参考资料
 1.[中文学习网站](http://www.css88.com/doc/webpack2/concepts/)
+2.[官网](http://webpack.github.io/)
 

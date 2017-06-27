@@ -1,8 +1,8 @@
 require("./world.js");
-require("./style.css");
+require("style-loader!css-loader!./style.css");
 
 function hello(str){
 	alert(str);
 }
 
-hello('hello world 11122');
+hello('hello world zjw');
