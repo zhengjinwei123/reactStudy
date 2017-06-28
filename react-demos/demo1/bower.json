@@ -1,0 +1,21 @@
+{
+  "name": "react demo1",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "zhengjinwei123 <2538698032@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
