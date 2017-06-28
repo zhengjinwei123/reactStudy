@@ -39,3 +39,4 @@
 
 ## 效果图
 
+![img](https://github.com/zhengjinwei123/reactStudy/blob/master/react-demos/demo1/pic1.png?raw=true)
