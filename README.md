@@ -66,6 +66,9 @@
 44. [留言评论](https://github.com/NumerHero/kuolun)
 45. [react开放node社区](https://github.com/lzxb/react-cnode)
 
+## 前端资源网站
+[资源1](http://www.360doc.com/content/16/1108/10/17722897_604827400.shtml)
+
 ## 问题
 
 ##### 1.解决 npm 安装缓慢和卡顿问题
