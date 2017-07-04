@@ -1,6 +1,6 @@
 # demo2 
 
-> Ê¹ÓÃ `webpack`+`react`+`redux`+`react-router`+`koa`+`mongodb` ÊµÏÖ¼òµ¥²©¿ÍÏµÍ³
+> ä½¿ç”¨ `webpack`+`react`+`redux`+`react-router`+`koa`+`mongodb` å®ç°ç®€å•åšå®¢ç³»ç»Ÿ
 
-## ²Î¿¼×ÊÁÏ
-1. [fetch](https://github.com/github/fetch) --> `fetch ÓÃÓÚÊµÏÖÒì²½ÇëÇó` <br />
+## å‚è€ƒèµ„æ–™
+1. [fetch](https://github.com/github/fetch) `fetch ç”¨äºå®ç°å¼‚æ­¥è¯·æ±‚` <br />
