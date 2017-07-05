@@ -6,5 +6,5 @@ export function postLogin(username,password){
         password: password
     };
 
-    return post("/login",param);
+    return post("/user/login",param);
 }

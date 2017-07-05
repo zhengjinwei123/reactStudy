@@ -1,7 +1,7 @@
 import { post } from '../post';
 
 export function postRegister(username,password){
-    return post('/register',{
+    return post('/user/add',{
         username:username,
         password:password
     });

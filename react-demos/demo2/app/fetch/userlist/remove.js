@@ -1,3 +1,7 @@
-/**
- * Created by ff on 2017/7/5.
- */
+import { post } from '../post';
+
+export function postRemUser(username){
+    return post("/user/remove",{
+        username
+    })
+}

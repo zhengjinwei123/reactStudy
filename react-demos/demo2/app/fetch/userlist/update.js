@@ -1,3 +1,8 @@
-/**
- * Created by ff on 2017/7/5.
- */
+import { post } from '../post';
+
+export function postUpdateUser(username,password){
+    return post("/user/update",{
+        username,
+        password
+    })
+}

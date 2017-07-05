@@ -1,3 +1,5 @@
-/**
- * Created by ff on 2017/7/5.
- */
+import { get } from '../get';
+
+export function getUserList(){
+    return get("/user/list");
+}
